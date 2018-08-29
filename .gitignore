@@ -2,3 +2,4 @@
 *.iml
 
 ch02/jenkins_home
+ch03/swarm/registry-data
