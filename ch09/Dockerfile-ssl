@@ -1,0 +1,6 @@
+FROM scratch
+
+COPY ssl /
+COPY cacert.pem /etc/ssl/certs/
+
+CMD ["/ssl"]
